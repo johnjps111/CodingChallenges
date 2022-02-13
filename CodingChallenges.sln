@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CodingChallenges_py", "CodingChallenges_py\CodingChallenges_py.pyproj", "{8BB632DD-E553-4E58-8508-8B096894116A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenges_cs", "CodingChallenges_cs\CodingChallenges_cs.csproj", "{0AFBB0ED-4522-4708-AA5C-0FDA43BB4FA0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CodingChallenges_vb", "CodingChallenges_vb\CodingChallenges_vb.vbproj", "{FDD8E3EA-7625-4D75-9B97-70C8B0791227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testFiles", "testFiles", "{1D479B93-9AF3-4BFD-8727-66FE8C3FA810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeEval", "CodeEval", "{0022B7D7-A834-4226-81F1-E6ABE40A9C62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{F537C5D8-EB6D-4D6F-B7A4-A60DD213805E}"
+	ProjectSection(SolutionItems) = preProject
+		testFiles\CodeEval\Easy\testRaceTrackNav.txt = testFiles\CodeEval\Easy\testRaceTrackNav.txt
+		testFiles\CodeEval\Easy\testReallyEasy.txt = testFiles\CodeEval\Easy\testReallyEasy.txt
+		testFiles\CodeEval\Easy\testSlangFlavor.txt = testFiles\CodeEval\Easy\testSlangFlavor.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{50C94956-1A42-40C7-85A7-2B5115277E6A}"
+	ProjectSection(SolutionItems) = preProject
+		testFiles\CodeEval\Medium\triangle.txt = testFiles\CodeEval\Medium\triangle.txt
+		testFiles\CodeEval\Medium\trianglesSmall.txt = testFiles\CodeEval\Medium\trianglesSmall.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{FB3BF1C2-3EAF-4CBA-A0D4-4BE675301442}"
+	ProjectSection(SolutionItems) = preProject
+		testFiles\CodeEval\Hard\AsciiDecryption.txt = testFiles\CodeEval\Hard\AsciiDecryption.txt
+		testFiles\CodeEval\Hard\BrainFark.txt = testFiles\CodeEval\Hard\BrainFark.txt
+		testFiles\CodeEval\Hard\discountOffers.txt = testFiles\CodeEval\Hard\discountOffers.txt
+		testFiles\CodeEval\Hard\dnaAlign.txt = testFiles\CodeEval\Hard\dnaAlign.txt
+		testFiles\CodeEval\Hard\FindMin.txt = testFiles\CodeEval\Hard\FindMin.txt
+		testFiles\CodeEval\Hard\FollowngInt.txt = testFiles\CodeEval\Hard\FollowngInt.txt
+		testFiles\CodeEval\Hard\minesweeper.txt = testFiles\CodeEval\Hard\minesweeper.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB632DD-E553-4E58-8508-8B096894116A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB632DD-E553-4E58-8508-8B096894116A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFBB0ED-4522-4708-AA5C-0FDA43BB4FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFBB0ED-4522-4708-AA5C-0FDA43BB4FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFBB0ED-4522-4708-AA5C-0FDA43BB4FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFBB0ED-4522-4708-AA5C-0FDA43BB4FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD8E3EA-7625-4D75-9B97-70C8B0791227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD8E3EA-7625-4D75-9B97-70C8B0791227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD8E3EA-7625-4D75-9B97-70C8B0791227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD8E3EA-7625-4D75-9B97-70C8B0791227}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0022B7D7-A834-4226-81F1-E6ABE40A9C62} = {1D479B93-9AF3-4BFD-8727-66FE8C3FA810}
+		{F537C5D8-EB6D-4D6F-B7A4-A60DD213805E} = {0022B7D7-A834-4226-81F1-E6ABE40A9C62}
+		{50C94956-1A42-40C7-85A7-2B5115277E6A} = {0022B7D7-A834-4226-81F1-E6ABE40A9C62}
+		{FB3BF1C2-3EAF-4CBA-A0D4-4BE675301442} = {0022B7D7-A834-4226-81F1-E6ABE40A9C62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C66871CA-E8E8-40F2-8408-E2F58AB0B6E1}
+	EndGlobalSection
+EndGlobal
